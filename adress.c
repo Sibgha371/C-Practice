@@ -11,5 +11,5 @@ void main (void) {
 	printf("Value of Pointer is %x\n",address);
 	
 	*address = 10;
-	printf("New Value is %d\n",data);
+	printf("New Value is %d\n    ",data);
 }
