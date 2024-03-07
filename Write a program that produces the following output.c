@@ -1,0 +1,24 @@
+//Write a program that produces the following output
+//0
+//0 1
+//0 1 2
+//0 1 2 3 
+//0 1 2 3 4
+//0 1 2 3 4 5
+
+//Dependenties
+#include<stdio.h>
+
+//Main function
+void main()
+{
+	//Global variables
+	int i,j;
+	
+	for(i=0;i<=5;i++){
+		for(j=0;j<=i;j++){
+			printf("%d\t",j);
+		}
+			printf("\n");
+	}
+}
